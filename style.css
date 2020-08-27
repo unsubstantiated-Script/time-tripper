@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Roboto+Slab&display=swap');
+
+:root {
+    --first-color: #261816;
+    --second-color: #F2B999;
+    --third-color: #F29544;
+    --fourth-color: #5D848C;
+    --fifth-color: #404959;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./image/nye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: var(--second-color);
+    font-family: 'Roboto Slab', serif
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+}
